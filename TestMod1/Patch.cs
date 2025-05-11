@@ -4,7 +4,7 @@ namespace InfiniteStamina;
 
 public class InfiniteStaminaPatch
 {
-    [HarmonyPostfix]
+    [HarmonyPrefix]
     [HarmonyPatch(typeof(WildSkies.Player.LocalPlayer), "Awake")]
     static bool InfiniteStamina(WildSkies.Player.LocalPlayer __instance)
     {

@@ -5,7 +5,7 @@ using HarmonyLib;
 
 namespace InfiniteStamina;
 
-[BepInPlugin("org.minemuffin.plugins.InfiniteStamina", "Infinite Stamina", "0.0.1")]
+[BepInPlugin("org.minemuffin.plugins.InfiniteStamina", "Infinite Stamina", "0.0.3")]
 public class InfiniteStaminaPlugin : BasePlugin
 {
     internal static new ManualLogSource Log;
